@@ -10,6 +10,14 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  var matriz = Object.entries(objeto);
+
+  return matriz;
+  
+  //Cómo convertir un objeto a arrglo en JavaScript. En este caso necesito usar la función Object.entries.
+  //Hay tres funciones relacionadas a este tipo de ejercicio: la función Object.entries que devuelve
+  //los pares clave-valor, función Object.keys que devuelve las claves, y la función Object.values
+  //que devuelve los valores.
 }
 
 
@@ -18,6 +26,16 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+
+
+
+  //---------------------------------
+ /* var cadena = "Cuantas 'A' aparecen en esta cadena."
+  var indices = [];
+  for(var i = 0; i < cadena.length; i++) {
+	if (cadena[i].toLowerCase() === "a") indices.push(i);
+  }
+  console.log(indices.length);*/
 }
 
 
@@ -26,6 +44,36 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  var cadena = "Esto Es Una Cadena";
+  
+
+  /*-----------------------------------
+  function contarMayusculas(cadena) {
+    var contar = 0;
+    var mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    for (var i = 0; i < mayusculas.length; i++) {
+      for (var x = 0; x < cadena.length; x++) {
+        if(cadena[x]==mayusculas[i]){
+          contar+=1;
+        }
+      }
+    }
+  return contar;
+  }*/
+  /*
+  var cualquierCadena="Brave new world"
+  document.write("<P>The index of the first w from the beginning is " +
+  cualquierCadena.indexOf("w"))         // Muestra 8
+  
+  document.write("<P>The index of the first w from the end is " +
+  cualquierCadena.lastIndexOf("w"))    // Muestra 10
+
+  document.write("<P>The index of 'new' from the beginning is " +
+  cualquierCadena.indexOf("new"))      // Muestra 6
+
+  document.write("<P>The index of 'new' from the end is " +
+  cualquierCadena.lastIndexOf("new"))  // Muestra 6
+  */
 }
 
 
